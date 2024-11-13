@@ -1,17 +1,41 @@
 import { useEffect, useState } from "react";
-const HandBurgerBox = dynamic(() => import("../../Icons/HandBurgerBox"), { ssr: false });
+const HandBurgerBox = dynamic(() => import("../../Icons/HandBurgerBox"), {
+  ssr: false,
+});
 const LunchBox = dynamic(() => import("../../Icons/LunchBox"), { ssr: false });
-const PaperBlank = dynamic(() => import("../../Icons/PaperBlank"), { ssr: false });
-const PaperBowl = dynamic(() => import("../../Icons/PaperBowl"), { ssr: false });
+const PaperBlank = dynamic(() => import("../../Icons/PaperBlank"), {
+  ssr: false,
+});
+const PaperBowl = dynamic(() => import("../../Icons/PaperBowl"), {
+  ssr: false,
+});
 const PaperCup = dynamic(() => import("../../Icons/PaperCup"), { ssr: false });
-const PaperCupWithLid = dynamic(() => import("../../Icons/PaperCupWithLid"), { ssr: false });
-const PaperCupWithSleeve = dynamic(() => import("../../Icons/PaperCupWithSleeve"), { ssr: false });
-const PaperCutlery = dynamic(() => import("../../Icons/PaperCutlery"), { ssr: false });
-const PaperPlate = dynamic(() => import("../../Icons/PaperPlate"), { ssr: false });
-const PaperRoll = dynamic(() => import("../../Icons/PaperRoll"), { ssr: false });
-const PaperStraw = dynamic(() => import("../../Icons/PaperStraw"), { ssr: false });
-const PopcornTub = dynamic(() => import("../../Icons/PopcornTub"), { ssr: false });
-const PositionAwareButton = dynamic(() => import("../../ui/PositionAwareButton"), { ssr: false });
+const PaperCupWithLid = dynamic(() => import("../../Icons/PaperCupWithLid"), {
+  ssr: false,
+});
+const PaperCupWithSleeve = dynamic(
+  () => import("../../Icons/PaperCupWithSleeve"),
+  { ssr: false }
+);
+const PaperCutlery = dynamic(() => import("../../Icons/PaperCutlery"), {
+  ssr: false,
+});
+const PaperPlate = dynamic(() => import("../../Icons/PaperPlate"), {
+  ssr: false,
+});
+const PaperRoll = dynamic(() => import("../../Icons/PaperRoll"), {
+  ssr: false,
+});
+const PaperStraw = dynamic(() => import("../../Icons/PaperStraw"), {
+  ssr: false,
+});
+const PopcornTub = dynamic(() => import("../../Icons/PopcornTub"), {
+  ssr: false,
+});
+const PositionAwareButton = dynamic(
+  () => import("../../ui/PositionAwareButton"),
+  { ssr: false }
+);
 import { Button } from "../../ui/button";
 import dynamic from "next/dynamic";
 import { NavbarData } from "../types/constant";
@@ -35,15 +59,14 @@ const componentList = [
   PaperBlank,
   HandBurgerBox,
 ];
-interface ApplicationLayoutProps{
-  navData:NavbarData;
+interface ApplicationLayoutProps {
+  navData: NavbarData;
 }
-export default function ApplicationLayout({navData}:ApplicationLayoutProps) {
-  const applicationData =navData?.navbar[2].data?.applications;
-  useEffect(()=>{
-   console.log("i am inside applciation alyout",applicationData);
-   
-  })
+export default function ApplicationLayout({ navData }: ApplicationLayoutProps) {
+  const applicationData = navData?.navbar[2].data?.applications;
+  useEffect(() => {
+    console.log("i am inside applciation alyout", applicationData);
+  });
   const [activeProduct, setActiveProduct] = useState<Product>(
     applicationData[0]
   );
@@ -71,8 +94,7 @@ export default function ApplicationLayout({navData}:ApplicationLayoutProps) {
         <div className="absolute bottom-4 right-4">
           <Button className="rounded-full flex items-center bg-primary text-primary-foreground hover:bg-white hover:text-black border border-black px-1 py-2 text-base font-regular group">
             <span className="flex-grow ml-2 text-center">View All</span>
-            <span className="ml-2 bg-white rounded-full p-1 transition-colors duration-200 group-hover:bg-black">
-            </span>
+            <span className="ml-2 bg-white rounded-full p-1 transition-colors duration-200 group-hover:bg-black"></span>
           </Button>
         </div>
       </div>

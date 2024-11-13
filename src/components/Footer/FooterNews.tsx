@@ -4,7 +4,6 @@ import Link from "next/link";
 import styles from "./footer.module.css";
 import { usePathname } from "next/navigation";
 import Image from "next/image";
-import { localeNames } from "@/lib/localesData";
 import LocaleSwitcher from "../Navbar/NavLayouts/CountryLayout";
 
 interface FooterProps {
@@ -40,10 +39,7 @@ interface FooterProps {
 
 const FooterNew: React.FC<FooterProps> = ({
   footerData,
-  country,
-  langauge,
-}) => {
-  const langageName = localeNames[langauge];
+  }) => {
   const pathname = usePathname() || "";
   const componentCode = pathname.split("/")[2]?.toLowerCase();
   const componentCodeourCompany = pathname.split("/")[3]?.toLowerCase();
@@ -111,7 +107,6 @@ const FooterNew: React.FC<FooterProps> = ({
                   {footerData.awarTitle}
                 </h3>
                 <div className="flex flex-row h-[3rem] w-[21rem] mb-4 -m-1 mt-3">
-                  {/* Mapping awards */}
                   {footerData.awards.map((award, index) => (
                     <Image
                       key={index}
@@ -172,7 +167,6 @@ const FooterNew: React.FC<FooterProps> = ({
                     ))}
                   </div>
                 </div>
-
                 <div className="w-[20%]  lg:ml-20 md:ml-[13rem] ml-10">
                   <h1
                     className={`font-semibold text-sm md:text-xl lg:text-sm font-poppins  ${textColor}`}
@@ -357,7 +351,6 @@ const FooterNew: React.FC<FooterProps> = ({
           </div>
         </div>
       </footer>
-
       <div
         className={`${styles.footerrights} ${
           isDarkBackground ? "bg-[#222222]" : "bg-white"
@@ -380,5 +373,4 @@ const FooterNew: React.FC<FooterProps> = ({
     </>
   );
 };
-
 export default FooterNew;

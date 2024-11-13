@@ -1,0 +1,110 @@
+.scrollbar {
+  height:60vh;
+  overflow: auto;
+  padding: 0 10px;
+  direction: rtl; /* Reverse the scrollbar to the left side */
+}
+.scrollbar-product-description{
+  overflow: auto;
+}
+/*       ScrollBar 1        */
+#scrollbar1::-webkit-scrollbar {
+  width: 10px;
+}
+
+#scrollbar1::-webkit-scrollbar-track {
+  border-radius: 8px;
+  background-color: #e7e7e7;
+  border: 1px solid #cacaca;
+}
+
+#scrollbar1::-webkit-scrollbar-thumb {
+  border-radius: 80px;
+  border: 3px solid transparent;
+  background-clip: content-box;
+  background-color: #9b9b9b;
+}
+
+/*        ScrollBar 2    */
+#scrollbar2::-webkit-scrollbar {
+  width: 20px;
+}
+
+#scrollbar2::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+#scrollbar2::-webkit-scrollbar-thumb {
+  background-image: url('https://i.ibb.co/1RHr40z/248599.png');
+  background-repeat: no-repeat, no-repeat;
+  background-size: 20px;
+}
+
+/*        ScrollBar 3    */
+#scrollbar3::-webkit-scrollbar {
+  width: 20px;
+}
+
+#scrollbar3::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+#scrollbar3::-webkit-scrollbar-thumb {
+  background-image: url('https://i.ibb.co/6yx2nn8/arrow.png');
+  background-position: center top;
+  background-repeat: no-repeat, no-repeat;
+  background-size: 50px;
+}
+
+/*        ScrollBar 4    */
+#scrollbar4::-webkit-scrollbar {
+  width: 12px;
+  border-radius: 10px;
+}
+
+#scrollbar4::-webkit-scrollbar-track {
+  border-radius: 10px;
+  border: 1px solid #cacaca;
+  background-color: #f1f1f1;
+  box-shadow: inset 0 0 6px rgba(255, 255, 255, 0.3);
+}
+
+#scrollbar4::-webkit-scrollbar-thumb {
+  background: linear-gradient(
+      90deg,
+      rgba(255, 0, 0, 1) 0%,
+      rgba(255, 154, 0, 1) 10%,
+      rgba(208, 222, 33, 1) 20%,
+      rgba(79, 220, 74, 1) 30%,
+      rgba(63, 218, 216, 1) 40%,
+      rgba(47, 201, 226, 1) 50%,
+      rgba(28, 127, 238, 1) 60%,
+      rgba(95, 21, 242, 1) 70%,
+      rgba(186, 12, 248, 1) 80%,
+      rgba(251, 7, 217, 1) 90%,
+      rgba(255, 0, 0, 1) 100%
+  );
+  border-radius: 10px;
+}
+.dirchange{
+  direction: ltr;
+}
+@keyframes blink {
+  0% {
+      background: rgba(255, 182, 193, 1); /* Very light red */
+  }
+  50% {
+      background: rgba(255, 99, 71, 1); /* Light red */
+  }
+  100% {
+      background: rgba(255, 182, 193, 1); /* Very light red */
+  }
+}
+
+.blinking-bg {
+  animation: blink 0.8s infinite; /* Adjust the duration for faster or slower blinking */
+  /* Additional styling for better appearance */
+  color: white; /* Text color */
+  font-weight: bold; /* Text style */
+  border-radius: 9999px; /* Ensure rounded appearance */
+}

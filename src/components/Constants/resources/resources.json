@@ -1,0 +1,61 @@
+{
+    "pageHeader": {
+      "mainTitle": "Nessco",
+      "highlightTitle": "Resources",
+      "description": "Our Genuine Parts are designed and engineered specifically for your Machine",
+      "image": {
+        "src": "/assets/resources/machine.gif",
+        "alt": "machine",
+        "width": 300,
+        "height": 300
+      }
+    },
+    "cards": [
+      {
+        "title": "FAQ",
+        "image": {
+          "src": "/assets/resources/3.svg",
+          "alt": "FAQ",
+          "width": 150,
+          "height": 150
+        }
+      },
+      {
+        "title": "Knowledge Center",
+        "image": {
+          "src": "/assets/resources/4.svg",
+          "alt": "Knowledge Center",
+          "width": 150,
+          "height": 150
+        }
+      },
+      {
+        "title": "Media Room",
+        "image": {
+          "src": "/assets/resources/5.svg",
+          "alt": "Media Room",
+          "width": 150,
+          "height": 150
+        }
+      },
+      {
+        "title": "Blogs",
+        "image": {
+          "src": "/assets/resources/6.svg",
+          "alt": "Blogs",
+          "width": 150,
+          "height": 150
+        }
+      },
+      {
+        "title": "Clientele",
+        "image": {
+          "src": "/assets/resources/7.svg",
+          "alt": "Clientele",
+          "width": 150,
+          "height": 150
+        }
+      }
+    ]
+  }
+  

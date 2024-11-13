@@ -1,0 +1,475 @@
+{
+    "Page1Data": {
+      "icons": [
+        {
+          "image": "/assets/ApplicationLayout/1.svg",
+          "title": "Paper Cup with Lid",
+          "img": "/assets/Product/PaperCupImg.svg"
+        },
+        {
+          "image": "/assets/ApplicationLayout/2.svg",
+          "img": "/assets/Product/PaperCupImg.svg",
+          "title": "Paper Cup"
+        },
+        {
+          "image": "/assets/ApplicationLayout/3.svg",
+          "img": "/assets/Product/PaperCupImg.svg",
+          "title": "Paper Bowl"
+        },
+        {
+          "image": "/assets/ApplicationLayout/4.svg",
+          "img": "/assets/Product/PaperCupImg.svg",
+          "title": "Paper Bucket"
+        },
+        {
+          "image": "/assets/ApplicationLayout/5.svg",
+          "img": "/assets/Product/PaperCupImg.svg",
+          "title": "Paper Cup with Handle"
+        },
+        {
+          "image": "/assets/ApplicationLayout/6.svg",
+          "img": "/assets/Product/PaperCupImg.svg",
+          "title": "Paper Straw"
+        },
+        {
+          "image": "/assets/ApplicationLayout/7.svg",
+          "img": "/assets/Product/PaperCupImg.svg",
+          "title": "Paper Lunch Box"
+        },
+        {
+          "image": "/assets/ApplicationLayout/8.svg",
+          "img": "/assets/Product/PaperCupImg.svg",
+          "title": "Paper Roll"
+        },
+        {
+          "image": "/assets/ApplicationLayout/5.svg",
+          "img": "/assets/Product/PaperCupImg.svg",
+          "title": "Paper Cup with Handle"
+        },
+        {
+          "image": "/assets/ApplicationLayout/6.svg",
+          "img": "/assets/Product/PaperCupImg.svg",
+          "title": "Paper Straw"
+        },
+        {
+          "image": "/assets/ApplicationLayout/7.svg",
+          "img": "/assets/Product/PaperCupImg.svg",
+          "title": "Paper Lunch Box"
+        },
+        {
+          "image": "/assets/ApplicationLayout/8.svg",
+          "img": "/assets/Product/PaperCupImg.svg",
+          "title": "Paper Roll"
+        }
+      ]
+    },
+    "Page2Data": {
+      "products": [
+        {
+          "title": "Paper Cup With Lid",
+          "description": "Paper cups with lid have a wide range of applications due to their convenience, disposability, and environmental benefits compared to plastic alternatives. They are commonly used in the food and beverage industry for serving hot and cold drinks in cafes, restaurants, and takeaways. Additionally, paper cups are frequently utilized in events and gatherings for serving beverages, ensuring hygiene and ease of clean-up. They are also popular in offices, vending machines, and educational institutions where quick and easy access to disposable cups is needed. Their versatility and recyclability make them an increasingly preferred choice in various settings. Paper cups have a wide range of applications due to their convenience, disposability, and environmental benefits compared to plastic alternatives. They are commonly used in the food and beverage industry for serving hot and cold drinks in cafes, restaurants, and takeaways. Additionally, paper cups are frequently utilized in events and gatherings for serving beverages, ensuring hygiene and ease of clean-up. They are also popular in offices, vending machines, and educational institutions where quick and easy access to disposable cups is needed. Their versatility and recyclability make them an increasingly preferred choice in various settings.",
+          "image": "/assets/ApplicationLayout/PaperCup.png"
+        },
+        {
+          "title": "Paper Cup",
+          "description": "Paper cups have a wide range of applications due to their convenience, disposability, and environmental benefits compared to plastic alternatives. They are commonly used in the food and beverage industry for serving hot and cold drinks in cafes, restaurants, and takeaways. Additionally, paper cups are frequently utilized in events and gatherings for serving beverages, ensuring hygiene and ease of clean-up. They are also popular in offices, vending machines, and educational institutions where quick and easy access to disposable cups is needed. Their versatility and recyclability make them an increasingly preferred choice in various settings. Paper cups have a wide range of applications due to their convenience, disposability, and environmental benefits compared to plastic alternatives. They are commonly used in the food and beverage industry for serving hot and cold drinks in cafes, restaurants, and takeaways. Additionally, paper cups are frequently utilized in events and gatherings for serving beverages, ensuring hygiene and ease of clean-up. They are also popular in offices, vending machines, and educational institutions where quick and easy access to disposable cups is needed. Their versatility and recyclability make them an increasingly preferred choice in various settings.",
+          "image": "/assets/ApplicationLayout/PaperCup.png"
+        },
+        {
+          "title": "Paper Bowl",
+          "description": "Paper bowl have a wide range of applications due to their convenience, disposability, and environmental benefits compared to plastic alternatives. They are commonly used in the food and beverage industry for serving hot and cold drinks in cafes, restaurants, and takeaways. Additionally, paper cups are frequently utilized in events and gatherings for serving beverages, ensuring hygiene and ease of clean-up. They are also popular in offices, vending machines, and educational institutions where quick and easy access to disposable cups is needed. Their versatility and recyclability make them an increasingly preferred choice in various settings. Paper cups have a wide range of applications due to their convenience, disposability, and environmental benefits compared to plastic alternatives. They are commonly used in the food and beverage industry for serving hot and cold drinks in cafes, restaurants, and takeaways. Additionally, paper cups are frequently utilized in events and gatherings for serving beverages, ensuring hygiene and ease of clean-up. They are also popular in offices, vending machines, and educational institutions where quick and easy access to disposable cups is needed. Their versatility and recyclability make them an increasingly preferred choice in various settings.",
+          "image": "/assets/ApplicationLayout/PaperCup.png"
+        },
+        {
+          "title": "Paper Bucket",
+          "description": "Paper Bucket have a wide range of applications due to their convenience, disposability, and environmental benefits compared to plastic alternatives. They are commonly used in the food and beverage industry for serving hot and cold drinks in cafes, restaurants, and takeaways. Additionally, paper cups are frequently utilized in events and gatherings for serving beverages, ensuring hygiene and ease of clean-up. They are also popular in offices, vending machines, and educational institutions where quick and easy access to disposable cups is needed. Their versatility and recyclability make them an increasingly preferred choice in various settings. Paper cups have a wide range of applications due to their convenience, disposability, and environmental benefits compared to plastic alternatives. They are commonly used in the food and beverage industry for serving hot and cold drinks in cafes, restaurants, and takeaways. Additionally, paper cups are frequently utilized in events and gatherings for serving beverages, ensuring hygiene and ease of clean-up. They are also popular in offices, vending machines, and educational institutions where quick and easy access to disposable cups is needed. Their versatility and recyclability make them an increasingly preferred choice in various settings.",
+          "image": "/assets/ApplicationLayout/PaperCup.png"
+        },
+        {
+          "title": "Paper Cup With Handle",
+          "description": "Paper cups With Handle have a wide range of applications due to their convenience, disposability, and environmental benefits compared to plastic alternatives. They are commonly used in the food and beverage industry for serving hot and cold drinks in cafes, restaurants, and takeaways. Additionally, paper cups are frequently utilized in events and gatherings for serving beverages, ensuring hygiene and ease of clean-up. They are also popular in offices, vending machines, and educational institutions where quick and easy access to disposable cups is needed. Their versatility and recyclability make them an increasingly preferred choice in various settings. Paper cups have a wide range of applications due to their convenience, disposability, and environmental benefits compared to plastic alternatives. They are commonly used in the food and beverage industry for serving hot and cold drinks in cafes, restaurants, and takeaways. Additionally, paper cups are frequently utilized in events and gatherings for serving beverages, ensuring hygiene and ease of clean-up. They are also popular in offices, vending machines, and educational institutions where quick and easy access to disposable cups is needed. Their versatility and recyclability make them an increasingly preferred choice in various settings.",
+          "image": "/assets/ApplicationLayout/PaperCup.png"
+        }
+      ]
+    },
+    "Page3Data": {
+      "title": "Products Gallery",
+      "description": "This is how our finished products looks like",
+      "images": [
+        {
+          "title": "Paper Cup With Lid",
+          "image": [
+            {
+              "img": "/assets/ApplicationLayout/PaperCup1.png"
+            },
+            {
+              "img": "/assets/ApplicationLayout/PaperCup2.png"
+            },
+            {
+              "img": "/assets/ApplicationLayout/PaperCup3.png"
+            }
+          ]
+        },
+        {
+          "title": "Paper Cup",
+          "image": [
+            {
+              "img": "/assets/ApplicationLayout/PaperCup1.png"
+            },
+            {
+              "img": "/assets/ApplicationLayout/PaperCup2.png"
+            },
+            {
+              "img": "/assets/ApplicationLayout/PaperCup3.png"
+            }
+          ]
+        },
+        {
+          "title": "Paper Bowl",
+          "image": [
+            {
+              "img": "/assets/ApplicationLayout/PaperCup1.png"
+            },
+            {
+              "img": "/assets/ApplicationLayout/PaperCup2.png"
+            },
+            {
+              "img": "/assets/ApplicationLayout/PaperCup3.png"
+            }
+          ]
+        },
+        {
+          "title": "Paper Bucket",
+          "image": [
+            {
+              "img": "/assets/ApplicationLayout/PaperCup1.png"
+            },
+            {
+              "img": "/assets/ApplicationLayout/PaperCup2.png"
+            },
+            {
+              "img": "/assets/ApplicationLayout/PaperCup3.png"
+            }
+          ]
+        },
+        {
+          "title": "Paper Cup With Handle",
+          "image": [
+            {
+              "img": "/assets/ApplicationLayout/PaperCup1.png"
+            },
+            {
+              "img": "/assets/ApplicationLayout/PaperCup2.png"
+            },
+            {
+              "img": "/assets/ApplicationLayout/PaperCup3.png"
+            }
+          ]
+        }
+      ]
+    },
+    "Page4Data": {
+      "title": "Related Machines",
+      "description": "You Might Want to take a look at our other products also.",
+      "inquiry": "Added to inquiry",
+      "viewMachine": " View Machine",
+      "imageDescription": [
+        {
+          "title": "Paper Cup With Lid",
+          "imageWithDescription": [
+            {
+              "h1": "Die Cutting Machine",
+              "h2": "NS-950",
+              "h3": "950mm Roll Width Die Cutting Machine",
+              "s": "S",
+              "sInformation": "Servo Driven",
+              "img": "/assets/ApplicationLayout/MachineImg1.png",
+              "image": "/assets/ApplicationLayout/3.svg",
+              "imageInformation": "Paper Plate",
+              "information": "More information about this item."
+            },
+            {
+              "h1": "Die Cutting Machine",
+              "h2": "NS-950",
+              "h3": "950mm Roll Width Die Cutting Machine",
+              "s": "S",
+              "sInformation": "Servo Driven",
+              "img": "/assets/ApplicationLayout/MachineImg1.png",
+              "image": "/assets/ApplicationLayout/3.svg",
+              "imageInformation": "Paper Plate",
+              "information": "More information about this item."
+            },
+            {
+              "h1": "Die Cutting Machine",
+              "h2": "NS-950",
+              "h3": "950mm Roll Width Die Cutting Machine",
+              "s": "S",
+              "sInformation": "Servo Driven",
+              "img": "/assets/ApplicationLayout/MachineImg1.png",
+              "image": "/assets/ApplicationLayout/3.svg",
+              "imageInformation": "Paper Plate",
+              "information": "More information about this item."
+            },
+            {
+              "h1": "Die Cutting Machine",
+              "h2": "NS-950",
+              "h3": "950mm Roll Width Die Cutting Machine",
+              "s": "S",
+              "sInformation": "Servo Driven",
+              "img": "/assets/ApplicationLayout/MachineImg1.png",
+              "image": "/assets/ApplicationLayout/3.svg",
+              "imageInformation": "Paper Plate",
+              "information": "More information about this item."
+            },
+            {
+              "h1": "Die Cutting Machine",
+              "h2": "NS-950",
+              "h3": "950mm Roll Width Die Cutting Machine",
+              "s": "S",
+              "sInformation": "Servo Driven",
+              "img": "/assets/ApplicationLayout/MachineImg1.png",
+              "image": "/assets/ApplicationLayout/3.svg",
+              "imageInformation": "Paper Plate",
+              "information": "More information about this item."
+            },
+            {
+              "h1": "Die Cutting Machine",
+              "h2": "NS-950",
+              "h3": "950mm Roll Width Die Cutting Machine",
+              "s": "S",
+              "sInformation": "Servo Driven",
+              "img": "/assets/ApplicationLayout/MachineImg1.png",
+              "image": "/assets/ApplicationLayout/3.svg",
+              "imageInformation": "Paper Plate",
+              "information": "More information about this item."
+            }
+          ]
+        },
+        {
+          "title": "Paper Cup",
+          "imageWithDescription": [
+            {
+              "h1": "Die Cutting Machine",
+              "h2": "NS-950",
+              "h3": "950mm Roll Width Die Cutting Machine",
+              "s": "S",
+              "sInformation": "Servo Driven",
+              "img": "/assets/ApplicationLayout/MachineImg1.png",
+              "image": "/assets/ApplicationLayout/3.svg",
+              "imageInformation": "Paper Plate",
+              "information": "More information about this item."
+            },
+            {
+              "h1": "Die Cutting Machine",
+              "h2": "NS-950",
+              "h3": "950mm Roll Width Die Cutting Machine",
+              "s": "S",
+              "sInformation": "Servo Driven",
+              "img": "/assets/ApplicationLayout/MachineImg1.png",
+              "image": "/assets/ApplicationLayout/3.svg",
+              "imageInformation": "Paper Plate",
+              "information": "More information about this item."
+            },
+            {
+              "h1": "Die Cutting Machine",
+              "h2": "NS-950",
+              "h3": "950mm Roll Width Die Cutting Machine",
+              "s": "S",
+              "sInformation": "Servo Driven",
+              "img": "/assets/ApplicationLayout/MachineImg1.png",
+              "image": "/assets/ApplicationLayout/3.svg",
+              "imageInformation": "Paper Plate",
+              "information": "More information about this item."
+            },
+            {
+              "h1": "Die Cutting Machine",
+              "h2": "NS-950",
+              "h3": "950mm Roll Width Die Cutting Machine",
+              "s": "S",
+              "sInformation": "Servo Driven",
+              "img": "/assets/ApplicationLayout/MachineImg1.png",
+              "image": "/assets/ApplicationLayout/3.svg",
+              "imageInformation": "Paper Plate",
+              "information": "More information about this item."
+            }
+          ]
+        },
+        {
+          "title": "Paper Bowl",
+          "imageWithDescription": [
+            {
+              "h1": "Die Cutting Machine",
+              "h2": "NS-950",
+              "h3": "950mm Roll Width Die Cutting Machine",
+              "s": "S",
+              "sInformation": "Servo Driven",
+              "img": "/assets/ApplicationLayout/MachineImg1.png",
+              "image": "/assets/ApplicationLayout/3.svg",
+              "imageInformation": "Paper Plate",
+              "information": "More information about this item."
+            },
+            {
+              "h1": "Die Cutting Machine",
+              "h2": "NS-950",
+              "h3": "950mm Roll Width Die Cutting Machine",
+              "s": "S",
+              "sInformation": "Servo Driven",
+              "img": "/assets/ApplicationLayout/MachineImg1.png",
+              "image": "/assets/ApplicationLayout/3.svg",
+              "imageInformation": "Paper Plate",
+              "information": "More information about this item."
+            },
+            {
+              "h1": "Die Cutting Machine",
+              "h2": "NS-950",
+              "h3": "950mm Roll Width Die Cutting Machine",
+              "s": "S",
+              "sInformation": "Servo Driven",
+              "img": "/assets/ApplicationLayout/MachineImg1.png",
+              "image": "/assets/ApplicationLayout/3.svg",
+              "imageInformation": "Paper Plate",
+              "information": "More information about this item."
+            },
+            {
+              "h1": "Die Cutting Machine",
+              "h2": "NS-950",
+              "h3": "950mm Roll Width Die Cutting Machine",
+              "s": "S",
+              "sInformation": "Servo Driven",
+              "img": "/assets/ApplicationLayout/MachineImg1.png",
+              "image": "/assets/ApplicationLayout/3.svg",
+              "imageInformation": "Paper Plate",
+              "information": "More information about this item."
+            }
+          ]
+        },
+        {
+          "title": "Paper Bucket",
+          "imageWithDescription": [
+            {
+              "h1": "Die Cutting Machine",
+              "h2": "NS-950",
+              "h3": "950mm Roll Width Die Cutting Machine",
+              "s": "S",
+              "sInformation": "Servo Driven",
+              "img": "/assets/ApplicationLayout/MachineImg1.png",
+              "image": "/assets/ApplicationLayout/3.svg",
+              "imageInformation": "Paper Plate",
+              "information": "More information about this item."
+            },
+            {
+              "h1": "Die Cutting Machine",
+              "h2": "NS-950",
+              "h3": "950mm Roll Width Die Cutting Machine",
+              "s": "S",
+              "sInformation": "Servo Driven",
+              "img": "/assets/ApplicationLayout/MachineImg1.png",
+              "image": "/assets/ApplicationLayout/3.svg",
+              "imageInformation": "Paper Plate",
+              "information": "More information about this item."
+            },
+            {
+              "h1": "Die Cutting Machine",
+              "h2": "NS-950",
+              "h3": "950mm Roll Width Die Cutting Machine",
+              "s": "S",
+              "sInformation": "Servo Driven",
+              "img": "/assets/ApplicationLayout/MachineImg1.png",
+              "image": "/assets/ApplicationLayout/3.svg",
+              "imageInformation": "Paper Plate",
+              "information": "More information about this item."
+            },
+            {
+              "h1": "Die Cutting Machine",
+              "h2": "NS-950",
+              "h3": "950mm Roll Width Die Cutting Machine",
+              "s": "S",
+              "sInformation": "Servo Driven",
+              "img": "/assets/ApplicationLayout/MachineImg1.png",
+              "image": "/assets/ApplicationLayout/3.svg",
+              "imageInformation": "Paper Plate",
+              "information": "More information about this item."
+            }
+          ]
+        },
+        {
+          "title": "Paper Cup With Handle",
+          "imageWithDescription": [
+            {
+              "h1": "Die Cutting Machine",
+              "h2": "NS-950",
+              "h3": "950mm Roll Width Die Cutting Machine",
+              "s": "S",
+              "sInformation": "Servo Driven",
+              "img": "/assets/ApplicationLayout/MachineImg1.png",
+              "image": "/assets/ApplicationLayout/3.svg",
+              "imageInformation": "Paper Plate",
+              "information": "More information about this item."
+            },
+            {
+              "h1": "Die Cutting Machine",
+              "h2": "NS-950",
+              "h3": "950mm Roll Width Die Cutting Machine",
+              "s": "S",
+              "sInformation": "Servo Driven",
+              "img": "/assets/ApplicationLayout/MachineImg1.png",
+              "image": "/assets/ApplicationLayout/3.svg",
+              "imageInformation": "Paper Plate",
+              "information": "More information about this item."
+            },
+            {
+              "h1": "Die Cutting Machine",
+              "h2": "NS-950",
+              "h3": "950mm Roll Width Die Cutting Machine",
+              "s": "S",
+              "sInformation": "Servo Driven",
+              "img": "/assets/ApplicationLayout/MachineImg1.png",
+              "image": "/assets/ApplicationLayout/3.svg",
+              "imageInformation": "Paper Plate",
+              "information": "More information about this item."
+            },
+            {
+             "h1": "Die Cutting Machine",
+              "h2": "NS-950",
+              "h3": "950mm Roll Width Die Cutting Machine",
+              "s": "S",
+              "sInformation": "Servo Driven",
+              "img": "/assets/ApplicationLayout/MachineImg1.png",
+              "image": "/assets/ApplicationLayout/3.svg",
+              "imageInformation": "Paper Plate",
+              "information": "More information about this item."
+            }
+          ]
+        }
+      ]
+    },
+    "Page5Data": {
+      "title": "Fraquently Asked Questions",
+      "subTitle": "FAQs",
+      "questions": [
+        {
+          "que": "What is the best way to use paper cups?",
+          "ans": "The best way to use paper cups is to ensure they are used for their intended purpose, such as for serving beverages. Avoid using them for food items that require prolonged heat or moisture, as paper cups are primarily designed for single-use beverage applications. The best way to use paper cups is to ensure they are used for their intended purpose, such as for serving beverages. Avoid using them for food items that require prolonged heat or moisture, as paper cups are primarily designed for single-use beverage applications."
+        },
+        {
+          "que": "Are paper cups eco-friendly?",
+          "ans": "Paper cups are generally considered more eco-friendly than plastic cups due to their biodegradability and recyclable nature. However, their environmental impact can vary depending on the type of paper used and whether they are coated with plastic."
+        },
+        {
+          "que": "Can paper cups be recycled?",
+          "ans": "Yes, paper cups can be recycled, but they often require specialized recycling facilities due to the plastic lining used to make them waterproof. It's important to check local recycling guidelines to ensure proper disposal."
+        }
+      ],
+      "formTitle": "Welcome to Nessco",
+      "formPara": "Login to aceternity if you canbecause we don't have a login flow yet",
+      "firstName": "First name",
+      "tyler": "Tyler",
+      "lastName": "Last Name",
+      "durden": "Durden",
+      "emailAddress": "Email Address",
+      "emailPlaceholder": "projectmayhem@fc.com",
+      "password": "Password",
+      "twitterPassword": "Your twitter password",
+      "sendMessage": "Send Message"
+    }
+  }

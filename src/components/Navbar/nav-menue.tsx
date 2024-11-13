@@ -27,7 +27,7 @@ export const Menu = ({ children }: { children: React.ReactNode }) => {
   );
 };
 
- const MenuItem = ({
+const MenuItem = ({
   setActive,
   active,
   item,
@@ -79,10 +79,7 @@ export const Menu = ({ children }: { children: React.ReactNode }) => {
 
   return (
     <div ref={ref} className="z-10 cursor-pointer px-3 font-poppins">
-      <a
-        className="invert-0 text-base font-light"
-        href={`/${link}`}
-      >
+      <a className="invert-0 text-base font-light" href={`/${link}`}>
         {item}
       </a>
       {active === item && (
@@ -91,12 +88,11 @@ export const Menu = ({ children }: { children: React.ReactNode }) => {
             transition={{ duration: 0.3 }}
             layoutId="active"
             className={`${
-              ["knowledge-center", "clientele"].includes(
-                componentCode
-              ) || ["our-company"].includes(componentCodeourCompany)
+              ["knowledge-center", "clientele"].includes(componentCode) ||
+              ["our-company"].includes(componentCodeourCompany)
                 ? "bg-[#222222]"
                 : "bg-white"
-            } dark:bg-black overflow-hidden border border-black/[0.2]  shadow-xl`}
+            } dark:bg-black overflow-hidden `}
           >
             <motion.div layout className="w-screen mx-auto h-full px-12">
               {children}

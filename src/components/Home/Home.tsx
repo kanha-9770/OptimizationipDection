@@ -36,7 +36,7 @@ const Home: React.FC<HeroLayoutProps> = ({ heroData }) => {
           <div className="w-full mt-4 ml-8 hidden lg:flex  justify-start">
             <div className="absolute bottom-1 right-[4rem]">
               <Button className="rounded-full flex items-center text-primary-foreground border-2  border-white h-16 w-60 text-lg bg-clip-border relative group custom-gradient-border transition-all duration-300">
-                <span className="text-2xl font-medium group-hover:bg-gradient-to-r group-hover:from-[#483d73] group-hover:to-red-700 group-hover:text-transparent group-hover:bg-clip-text -ml-8 transition-all duration-300">Enquire</span>
+                <span className="text-2xl text-black font-medium group-hover:bg-gradient-to-r group-hover:from-[#483d73] group-hover:to-red-700 group-hover:text-transparent group-hover:bg-clip-text -ml-8 transition-all duration-300">Enquire</span>
                 <span className="h-12 w-12 bg-white  rounded-full flex items-center justify-center absolute right-2 group-hover:bg-gradient-to-r group-hover:from-[#483d73] group-hover:to-red-700 transition-all duration-300">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"

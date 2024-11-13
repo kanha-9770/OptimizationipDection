@@ -4,7 +4,6 @@ import Script from "next/script";
 import { getTranslations, unstable_setRequestLocale } from "next-intl/server";
 import { NextIntlClientProvider } from "next-intl";
 import NavLayout from "@/components/Navbar/NavLayout";
-
 import {
   CountryCode,
   countryNames,

@@ -6,6 +6,7 @@ import { getTranslations, unstable_setRequestLocale } from "next-intl/server";
 import React from "react";
 import { locales } from "@/i18n";
 
+
 const apiUrl = "https://jsondatafromhostingertosheet.nesscoindustries.com/";
 const countryUrl = "https://countryjson.nesscoindustries.com/";
 

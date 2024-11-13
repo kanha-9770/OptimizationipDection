@@ -1,0 +1,413 @@
+{
+    "IndividualProducts": [
+      {
+        "category": "Product",
+        "data": {
+          "Machines": [
+            {
+              "name": "NS-016",
+              "image": "https://assets.nesscoindustries.com/public/assets/nav_machine/PCM110WithPLC.png",
+              "mimage": "https://i.pinimg.com/236x/2a/63/4f/2a634f524ec7e8bd98127d419701df64.jpg",
+              "specification_image": [
+                {
+                  "first": "https://assets.nesscoindustries.com/public/assets/nav_machine/PaperBowlMachine.webp"
+                },
+                {
+                  "second": "https://assets.nesscoindustries.com/public/assets/nav_machine/PCM110WithPLC.png"
+                },
+                {
+                  "third": "https://assets.nesscoindustries.com/public/assets/nav_machine/FlexoPrintingMachine.png"
+                },
+                {
+                  "fourth": "https://assets.nesscoindustries.com/public/assets/nav_machine/PaperPlate.png"
+                },
+                {
+                  "fifth": "https://www.nesscoindia.com/Assets/images/service/Fully-Automatic-Paper-Bag-Machine.webp"
+                }
+              ],
+              "applicationData": [
+                {
+                  "category": "Paper Cups",
+                  "title": "Bear Paper Cup",
+                  "src": "https://i.pinimg.com/236x/d1/a0/7a/d1a07a7796dfeed0efbcfcd3af41871e.jpg"
+                },
+                {
+                  "category": "Paper Cups",
+                  "title": "Coffee Paper Cup",
+                  "src": "https://i.pinimg.com/236x/1e/88/8c/1e888ceefc1bfb5254023d684e4623a3.jpg"
+                },
+                {
+                  "category": "Paper Cups",
+                  "title": "Party Paper Cup",
+                  "src": "https://i.pinimg.com/236x/b7/cc/bb/b7ccbb3d5f4b5babc934a56389aeabfb.jpg"
+                },
+                {
+                  "category": "Paper Cups",
+                  "title": "Holiday Paper Cup",
+                  "src": "https://i.pinimg.com/564x/25/f6/65/25f665d0b4841754576bda120925a25a.jpg"
+                },
+                {
+                  "category": "Paper Cups",
+                  "title": "Custom Printed Paper Cup",
+                  "src": "https://i.pinimg.com/236x/26/bf/21/26bf21c1654fe4d0ec89c026b2e0c0e2.jpg"
+                },
+                {
+                  "category": "Paper Cups",
+                  "title": "Hot Drink Paper Cup",
+                  "src": "https://i.pinimg.com/564x/9f/c4/0b/9fc40bcd51d88f78f518f9453b6a1669.jpg"
+                },
+                {
+                  "category": "Paper Cups",
+                  "title": "Cold Drink Paper Cup",
+                  "src": "https://i.pinimg.com/564x/98/5f/b4/985fb409b379171ad5637df74b121e19.jpg"
+                },
+                {
+                  "category": "Paper Cups",
+                  "title": "Eco-Friendly Paper Cup",
+                  "src": "https://i.pinimg.com/736x/8d/02/8d/8d028d7fb941ee7549255a490799a7ed.jpg"
+                },
+                {
+                  "category": "Paper Cups",
+                  "title": "Travel Paper Cup",
+                  "src": "https://i.pinimg.com/236x/ca/3c/6a/ca3c6add23d80c1b2592a75819780aaa.jpg"
+                }
+              ],
+  
+              "product_heading": "food packaging machine",
+              "first_name": "High Speed Mechanical",
+              "second_name": "second_name",
+              "category": "Paper Cup Machine, All Products",
+              "icon": "papercup",
+              "introduction": "The NS-016 paper cup machine is designed for versatility and efficiency, catering to small to medium-scale enterprises. It offers reliable performance and ease of operation.",
+              "parameters": "Voltage: 220V, Power: 1500W",
+              "application": "Suitable for producing a variety of paper cup sizes, ranging from 4oz to 12oz, for both hot and cold beverages.",
+              "descriptionHeading": "Product",
+              "descriptionSubHeading": "Description",
+              "descriptionSpeed": "speed",
+              "descriptionRange": "Range",
+              "descriptionSize": "size",
+              "product_description": "Experience unparalleled efficiency with our Servo Driven Paper Cup Machine, a marvel of engineering that integrates advanced mechanical, electronic, pneumatic, and electrical technologies. This high-precision machine is equipped with 13 servos that work in perfect sync via PLC, enabling the production of up to 180 high-quality paper cups per minute, equivalent to 3 cups per second. The machine features a two-step curling process, which ensures the rim of each cup is curled twice to provide extra rigidity and durability & High-quality sealing is guaranteed through the use of ultrasonic and hot air mechanisms, minimizing the risk of leakage, making it ideal for both hot and cold beverages.",
+              "status": "New",
+              "cupFormationData": {
+                "heading": "Process of",
+                "subheading": "Cup Formation",
+                "image": {
+                  "src": "https://i.pinimg.com/236x/1e/88/8c/1e888ceefc1bfb5254023d684e4623a3.jpg",
+                  "alt": "process image"
+                }
+              },
+  
+              "rating": {
+                "stars": 4,
+                "reviews": 69
+              },
+  
+              "technicalSpecifications": {
+                "title": "Technical Specifications",
+                "specifications": [
+                    {
+                      "title": "Speed: 180 Cups/Min"
+                    },
+                    {
+                      "title": "Paper Specification: 150 - 400 GSM"
+                    },
+                    {
+                      "title": "Raw Materials: Single or Double"
+                    },
+                    {
+                      "title": "Cup Size: 4-15 oz"
+                    }
+                  ]
+              },
+              "TechnicalSpecificationComponentData": {
+                "title": "Technical Specifications",
+  
+                "image": {
+                  "src": "https://i.pinimg.com/236x/1e/88/8c/1e888ceefc1bfb5254023d684e4623a3.jpg",
+                  "alt": "process image"
+                },
+                "tableHeadLeft": "FEATURE",
+                "tableHeadRight": "SPECIFICATION",
+                "TableData": [
+                  {
+                    "feature": "Speed",
+                    "spec": "180 Cups / min"
+                  },
+                  {
+                    "feature": "Paper Specifications",
+                    "spec": "170 - 380 GSM"
+                  },
+                  {
+                    "feature": "Raw Materials",
+                    "spec": "Single or Double PE/PLA Coated Paper"
+                  },
+                  {
+                    "feature": "Cup Size",
+                    "spec": "2.5 - 26 oz"
+                  },
+                  {
+                    "feature": "Cup Top Dia (TD)",
+                    "spec": "60 - 95 mm"
+                  },
+                  {
+                    "feature": "Cup Height (H)",
+                    "spec": "50 - 135 mm"
+                  },
+                  {
+                    "feature": "Cup Bottom Dia (RB)",
+                    "spec": "40 - 75 mm"
+                  },
+                  {
+                    "feature": "Cup Knurling Depth (KD)",
+                    "spec": "3.5 - 10 mm"
+                  },
+                  {
+                    "feature": "Voltage",
+                    "spec": "3 Phase | 380 V; 50 Hz"
+                  },
+                  {
+                    "feature": "Total Power",
+                    "spec": "35 kW"
+                  },
+                  {
+                    "feature": "Weight",
+                    "spec": "3500 Kg"
+                  },
+                  {
+                    "feature": "Dimensions",
+                    "spec": "3700 x 1520 x 1940 mm"
+                  },
+                  {
+                    "feature": "Air Pressure",
+                    "spec": "0.6 - 0.8 Mpa"
+                  },
+                  {
+                    "feature": "Air Flow Rate",
+                    "spec": "30 CFM"
+                  }
+                ]
+              },
+              "advantages": {
+                "title": "Advantages",
+                "items": [
+                  {
+                    "title": "High Efficiency: Boosts production capacity."
+                  },
+                  {
+                    "title": "Consistent Quality: Ensures uniform bowls."
+                  },
+                  {
+                    "title": "Cost-Effective: Reduces labor and energy costs."
+                  },
+                  {
+                    "title": "Versatile: Handles various bowl sizes."
+                  }
+                ]
+              },
+              "paperTypes": {
+                "title": "Choose Paper Type",
+  
+                "types": [
+                  {
+                    "type": "Single wall",
+                    "image": "https://www.nesscoindia.com/Assets/images/service/Flexo-Printed-Roll.webp"
+                  },
+                  {
+                    "type": "Double wall",
+                    "image": "https://www.nesscoindia.com/Assets/images/service/Flexo-Printed-Roll.webp"
+                  }
+                ]
+              },
+  
+              "optional_add_ons": "Automatic cup stacking unit available as an optional accessory.",
+              "FAQ": {
+                "title": "Frequently Asked Questions",
+                "subTitle": "FAQs",
+                "questions": [
+                  {
+                    "que": "What is the best way to use paper cups?",
+                    "ans": "The best way to use paper cups is to ensure they are used for their intended purpose, such as for serving beverages. Avoid using them for food items that require prolonged heat or moisture, as paper cups are primarily designed for single-use beverage applications."
+                  },
+                  {
+                    "que": "Are paper cups eco-friendly?",
+                    "ans": "Paper cups are generally considered more eco-friendly than plastic cups due to their biodegradability and recyclable nature. However, their environmental impact can vary depending on the type of paper used and whether they are coated with plastic."
+                  },
+                  {
+                    "que": "Can paper cups be recycled?",
+                    "ans": "Yes, paper cups can be recycled, but they often require specialized recycling facilities due to the plastic lining used to make them waterproof. It's important to check local recycling guidelines to ensure proper disposal."
+                  },
+                  {
+                    "que": "Can I use paper cups for hot beverages?",
+                    "ans": "Yes, paper cups are often designed to handle hot beverages. However, make sure to use double-walled or insulated paper cups to avoid discomfort from the heat when holding them."
+                  },
+                  {
+                    "que": "How long can I use a paper cup for a cold drink?",
+                    "ans": "Paper cups are designed for single use and can hold cold beverages for a reasonable period of time. However, over prolonged periods, moisture may cause the paper to weaken, so it's best to use them within a short time frame."
+                  },
+                  {
+                    "que": "Are there paper cups that are fully biodegradable?",
+                    "ans": "Yes, there are paper cups made from fully biodegradable materials, including plant-based linings. These cups break down more easily in composting environments compared to traditional paper cups with plastic linings."
+                  },
+                  {
+                    "que": "Can I microwave paper cups?",
+                    "ans": "It is generally not recommended to microwave paper cups, especially those with plastic linings. Microwaving can weaken the structure of the cup and potentially cause the lining to melt."
+                  },
+                  {
+                    "que": "What is the environmental impact of paper cups?",
+                    "ans": "While paper cups are often touted as eco-friendly, their production involves the use of trees, water, and energy. Additionally, most paper cups are lined with plastic, making them more difficult to recycle. However, compostable and biodegradable alternatives are reducing this impact."
+                  },
+                  {
+                    "que": "Are paper cups safe for children?",
+                    "ans": "Yes, paper cups are generally safe for children to use for cold beverages. For hot drinks, ensure they use double-walled or insulated cups to avoid burns."
+                  },
+                  {
+                    "que": "Why do some paper cups have a wax or plastic lining?",
+                    "ans": "The wax or plastic lining is used to make paper cups waterproof, preventing the liquid from soaking into the paper. This lining allows the cup to hold both hot and cold beverages without leakage."
+                  }
+                ]
+              },
+              "related_product": {
+                "title": "Paper Cup",
+                "imageWithDescription": [
+                  {
+                    "h1": "Die Cutting Machine",
+                    "h2": "NS-950",
+                    "h3": "950mm Roll Width Die Cutting Machine",
+                    "s": "S",
+                    "sInformation": "Servo Driven",
+                    "img": "https://assets.nesscoindustries.com/public/assets/nav_machine/PCM110WithPLC.png",
+                    "image": "https://assets.nesscoindustries.com/public/assets/nav_machine/PaperBowlMachine.webp",
+                    "imageInformation": "Paper Plate",
+                    "information": "More information about this item."
+                  },
+                  {
+                    "h1": "Die Cutting Machine",
+                    "h2": "NS-950",
+                    "h3": "950mm Roll Width Die Cutting Machine",
+                    "s": "S",
+                    "sInformation": "Servo Driven",
+                    "img": "https://assets.nesscoindustries.com/public/assets/nav_machine/PCM110WithPLC.png",
+                    "image": "https://assets.nesscoindustries.com/public/assets/nav_machine/PaperBowlMachine.webp",
+                    "imageInformation": "Paper Plate",
+                    "information": "More information about this item."
+                  },
+                  {
+                    "h1": "Die Cutting Machine",
+                    "h2": "NS-950",
+                    "h3": "950mm Roll Width Die Cutting Machine",
+                    "s": "S",
+                    "sInformation": "Servo Driven",
+                    "img": "https://assets.nesscoindustries.com/public/assets/nav_machine/PCM110WithPLC.png",
+                    "image": "https://assets.nesscoindustries.com/public/assets/nav_machine/PaperBowlMachine.webp",
+                    "imageInformation": "Paper Plate",
+                    "information": "More information about this item."
+                  },
+                  {
+                    "h1": "Die Cutting Machine",
+                    "h2": "NS-950",
+                    "h3": "950mm Roll Width Die Cutting Machine",
+                    "s": "S",
+                    "sInformation": "Servo Driven",
+                    "img": "https://assets.nesscoindustries.com/public/assets/nav_machine/PCM110WithPLC.png",
+                    "image": "https://assets.nesscoindustries.com/public/assets/nav_machine/PaperBowlMachine.webp",
+                    "imageInformation": "Paper Plate",
+                    "information": "More information about this item."
+                  }
+                ]
+              },
+              "lottieAnimations": {
+                "speed": "https://assets.nesscoindustries.com/public/assets/product/speed.json",
+                "size": "https://assets.nesscoindustries.com/public/assets/product/size.json"
+              },
+              "productDetails": {
+                "speedDescription": "Speed round shapes: up to 180 cups/min.",
+                "sizeDescription": "Size range: 3 oz to 32 oz",
+                "rangeDescription": "up to 180 cups per minute up to 160 cups per minute"
+              },
+  
+              "Page4Data": {
+                "title": "Start your customized project",
+                "paragraph": "There are many details to consider when designing the finished size, of which market acceptance is the most important. Our team of professional designers will work with you to confirm the specifications and produce a prototype for mould design approval",
+                "container": [
+                  {
+                    "title1": "1. Paper Roll",
+                    "title2": "1. Paper Roll",
+                    "description": "The process begins with the sourcing of large paper rolls, typically made from food-grade paper that has been coated with a thin layer of polyethylene to make it waterproof. These rolls are the raw material that will be transformed into paper cups.",
+                    "img": "https://assets.nesscoindustries.com/public/assets/nav_machine/FullyAutomaticPaperBagMachine.png"
+                  },
+                  {
+                    "title1": "2. Printing",
+                    "title2": "2. Printing",
+                    "description": "In the printing stage, the paper is fed into a high-speed printing machine that applies custom designs, logos, and other branding elements to the paper. This step is essential for creating branded cups that can be used for promotional purposes in cafes, restaurants, and events.",
+                    "img": "https://assets.nesscoindustries.com/public/assets/nav_machine/FullyAutomaticPaperBagMachine.png"
+                  },
+                  {
+                    "title1": "3. Cutting",
+                    "title2": "3. Cutting",
+                    "description": "After printing, the paper rolls are sent to the cutting machine, where they are precisely cut into flat, fan-shaped pieces known as blanks. These blanks will form the body of the paper cup. Accurate cutting is critical to ensure that the pieces fit together perfectly during the forming stage, avoiding any gaps or misalignment.",
+                    "img": "https://assets.nesscoindustries.com/public/assets/nav_machine/FullyAutomaticPaperBagMachine.png"
+                  },
+                  {
+                    "title1": "4. Paper Fan",
+                    "title2": "4. Paper Fan",
+                    "description": "The cut blanks are then shaped into a fan-like structure, ready to be formed into the cylindrical body of the cup. This step is important as it begins to give the paper its cup-like shape. The fan-shaped blanks are designed to make it easier to form a tight seam when the edges are joined together.",
+                    "img": "https://assets.nesscoindustries.com/public/assets/nav_machine/FullyAutomaticPaperBagMachine.png"
+                  },
+                  {
+                    "title1": "5. Forming",
+                    "title2": "5. Forming",
+                    "description": "In this stage, the paper fan is rolled into a cylindrical shape, and the edges are sealed together to form the body of the cup. The machine uses heat and pressure to bond the edges of the paper and create a strong seam. This step transforms the flat blanks into the final cup shape, which is then ready for the next stage.",
+                    "img": "https://assets.nesscoindustries.com/public/assets/nav_machine/FullyAutomaticPaperBagMachine.png"
+                  },
+                  {
+                    "title1": "6. Final Paper Cup Product",
+                    "title2": "6. Final Product",
+                    "description": "Once the cup body is formed, the bottom of the cup is sealed using a separate machine. This step involves applying a bottom piece and sealing it with heat and pressure to ensure the cup is watertight. This final step ensures that the cup can hold liquids without leaking.",
+                    "img": "https://assets.nesscoindustries.com/public/assets/nav_machine/FullyAutomaticPaperBagMachine.png"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "category": "Overview",
+        "data": {
+          "DataBankItem": [
+            {
+              "title": "Paper Cup Machine",
+              "image": "https://assets.nesscoindustries.com/public/assets/nav_machine/FullyAutomaticPaperBagMachine.png",
+              "bgPic": "https://assets.nesscoindustries.com/public/assets/nav_machine/PaperBowlMachine.webp"
+            },
+            {
+              "title": "Paper Bowl Machine",
+              "image": "https://assets.nesscoindustries.com/public/assets/nav_machine/PaperBowlMachine.webp",
+              "bgPic": "papercup"
+            },
+            {
+              "title": "Paper Straw Machine",
+              "image": "https://assets.nesscoindustries.com/public/assets/nav_machine/PaperBowlMachine1.png",
+              "bgPic": "https://assets.nesscoindustries.com/public/assets/nav_machine/PaperBowlMachine.webp"
+            },
+            {
+              "title": "Paper Bucket Machine",
+              "image": "https://assets.nesscoindustries.com/public/assets/nav_machine/PaperBowlMachine2.png",
+              "bgPic": "https://assets.nesscoindustries.com/public/assets/nav_machine/PaperBowlMachine.webp"
+            },
+            {
+              "title": "Additional Item 4",
+              "image": "https://assets.nesscoindustries.com/public/assets/nav_machine/PaperBowlMachine3.png",
+              "bgPic": "https://assets.nesscoindustries.com/public/assets/nav_machine/PaperBowlMachine.webp"
+            },
+            {
+              "title": "Additional Item 5",
+              "image": "https://assets.nesscoindustries.com/public/assets/nav_machine/PaperCupMachine.png",
+              " bgPic": "https://assets.nesscoindustries.com/public/assets/nav_machine/PaperBowlMachine.webp"
+            }
+          ]
+        }
+      }
+    ]
+  }
+  

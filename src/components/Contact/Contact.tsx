@@ -1,12 +1,17 @@
 import React, { useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import dynamic from "next/dynamic";
+import { Button } from "../ui/button";
+import { FormProvider } from "@/app/[country]/[locale]/context/FormContext";
+
 const SignupFormDemo = dynamic(() => import("./SignupFormDemo"));
+
 interface ContactFormProps {
   isContactFormVisible: boolean;
   setContactFormVisible: (visible: boolean) => void;
   setIsFlagOpen: (flag: boolean) => void;
 }
+
 const ContactForm: React.FC<ContactFormProps> = ({
   isContactFormVisible,
   setContactFormVisible,
@@ -15,14 +20,11 @@ const ContactForm: React.FC<ContactFormProps> = ({
   const contactRef = useRef<HTMLDivElement>(null);
   const buttonRef = useRef<HTMLButtonElement>(null);
 
-
-  // Show form when mouse enters the button or the form itself
   const handleMouseEnter = () => {
     setContactFormVisible(true);
     setIsFlagOpen(false);
   };
 
-  // Hide form when the mouse leaves both the button and the form
   const handleMouseLeave = (event: React.MouseEvent) => {
     if (
       contactRef.current &&
@@ -38,7 +40,6 @@ const ContactForm: React.FC<ContactFormProps> = ({
     const contactElement = contactRef.current;
     const buttonElement = buttonRef.current;
 
-    // Native event listeners require a DOM-compatible event handler
     const handleMouseLeaveNative = (event: MouseEvent) => {
       if (
         contactRef.current &&
@@ -50,11 +51,9 @@ const ContactForm: React.FC<ContactFormProps> = ({
       }
     };
 
-    // Add event listeners for mouse leave
     contactElement?.addEventListener("mouseleave", handleMouseLeaveNative);
     buttonElement?.addEventListener("mouseleave", handleMouseLeaveNative);
 
-    // Cleanup event listeners
     return () => {
       contactElement?.removeEventListener("mouseleave", handleMouseLeaveNative);
       buttonElement?.removeEventListener("mouseleave", handleMouseLeaveNative);
@@ -71,39 +70,47 @@ const ContactForm: React.FC<ContactFormProps> = ({
   };
 
   return (
-    <div className="">
-      <AnimatePresence>
-        {isContactFormVisible && (
-          <motion.div
-            ref={contactRef}
-            className="fixed top-14 right-0 z-50 mr-8 mt-0 w-[200px] md:w-[300px] lg:w-[400px] xl:w-[500px] bg-white rounded-lg overflow-hidden"
-            initial={{ y: "-100%", height: 0, opacity: 0 }}
-            animate={{ y: 0, height: "35rem", opacity: 1 }}
-            exit={{ y: "-100%", height: 0, opacity: 0 }}
-            transition={transition}
-            onMouseEnter={handleMouseEnter} // Keep form visible when entering it
-            onMouseLeave={handleMouseLeave} // Hide form when leaving it
-          >
-            {/* Header with text and close icon */}
-            <div className="flex justify-between items-center p-4">
-              <h2 className="font-montserrat text-xl text-neutral-800 dark:text-neutral-200">
-                GET IN TOUCH WITH US
-              </h2>
-              <button
-                onClick={() => setContactFormVisible(false)}
-                aria-label="Close contact form"
-                className="text-gray-600 hover:text-gray-800"
-              >
-                X
-              </button>
-            </div>
+    <FormProvider>
+      <div>
+        <Button
+          ref={buttonRef}
+          className="bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white font-bold py-2 px-4 rounded-full shadow-lg transition-all duration-300 ease-in-out transform hover:scale-105"
+          onMouseEnter={handleMouseEnter}
+        >
+          Enquire
+        </Button>
+        <AnimatePresence>
+          {isContactFormVisible && (
+            <motion.div
+              ref={contactRef}
+              className="fixed top-12 rounded-xl right-0 z-50 mr-8 mt-0 w-[200px] md:w-[300px] lg:w-[400px] xl:w-[500px] bg-white overflow-hidden"
+              initial={{ y: "-100%", height: 0, opacity: 0 }}
+              animate={{ y: 0, height: "35rem", opacity: 1 }}
+              exit={{ y: "-100%", height: 0, opacity: 0 }}
+              transition={transition}
+              onMouseEnter={handleMouseEnter}
+              onMouseLeave={handleMouseLeave}
+            >
+              <div className="flex justify-between items-center p-4">
+                <h2 className="font-montserrat text-xl text-neutral-800 dark:text-neutral-200">
+                  GET IN TOUCH WITH US
+                </h2>
+                <button
+                  onClick={() => setContactFormVisible(false)}
+                  aria-label="Close contact form"
+                  className="text-gray-600 hover:text-gray-800"
+                >
+                  X
+                </button>
+              </div>
 
-            {/* Content */}
-            <SignupFormDemo />
-          </motion.div>
-        )}
-      </AnimatePresence>
-    </div>
+              {/* Signup Form with Context */}
+              <SignupFormDemo formId="HomePage/Enquire"/>
+            </motion.div>
+          )}
+        </AnimatePresence>
+      </div>
+    </FormProvider>
   );
 };
 

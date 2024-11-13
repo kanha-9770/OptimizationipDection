@@ -12,7 +12,7 @@ const PaperCupWithLid: React.FC<LunchBox> = ({ width="100" }) => {
         xmlns="http://www.w3.org/2000/svg"
         x="0px"
         y="0px"
-        viewBox="0 0 500 500"
+        viewBox="0 30 500 500"
         width={width}
       >
         <g>

@@ -8,7 +8,7 @@ const PaperBowl: React.FC<PaperBowl> = ({ width="100" }) => {
     <div>
       <svg
         width={width}
-        viewBox="0 0 1113 1113"
+        viewBox="0 100 1113 1113"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
       >

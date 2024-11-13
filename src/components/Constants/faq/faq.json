@@ -1,0 +1,86 @@
+{
+  "searchbox": {
+    "filter": "Filters",
+    "byCategory": "By Category",
+    "placeholder": "Search Filter",
+    "categories": [
+      {
+        "name": "Paper Bag",
+        "faqs": [
+          {
+            "que": "What is the best way to use paper cups?",
+            "ans": "The best way to use paper cups is to ensure they are used for their intended purpose, such as for serving beverages...The best way to use paper cups is to ensure they are used for their intended purpose, such as for serving beverages...The best way to use paper cups is to ensure they are used for their intended purpose, such as for serving beverages...The best way to use paper cups is to ensure they are used for their intended purpose, such as for serving beverages...The best way to use paper cups is to ensure they are used for their intended purpose, such as for serving beverages..."
+          },
+          {
+            "que": "Are paper cups eco-friendly?",
+            "ans": "Paper cups are generally considered more eco-friendly than plastic cups due to their biodegradability.Paper cups are generally considered more eco-friendly than plastic cups due to their biodegradability...Paper cups are generally considered more eco-friendly than plastic cups due to their biodegradability...Paper cups are generally considered more eco-friendly than plastic cups due to their biodegradability...Paper cups are generally considered more eco-friendly than plastic cups due to their biodegradability...Paper cups are generally considered more eco-friendly than plastic cups due to their biodegradability..."
+          },
+          {
+            "que": "Are paper cups eco-friendly?",
+            "ans": "Paper cups are generally considered more eco-friendly than plastic cups due to their biodegradability..."
+          }
+        ]
+      },
+      {
+        "name": "Paper Cups",
+        "faqs": [
+          {
+            "que": "What is the best way to use paper cups?",
+            "ans": "The best way to use paper cups is to ensure they are used for their intended purpose, such as for serving beverages..."
+          },
+          {
+            "que": "Can paper cups be recycled?",
+            "ans": "Yes, paper cups can be recycled, but they often require specialized recycling facilities..."
+          },
+          {
+            "que": "Are paper cups eco-friendly?",
+            "ans": "Paper cups are generally considered more eco-friendly than plastic cups due to their biodegradability.Paper cups are generally considered more eco-friendly than plastic cups due to their biodegradability...Paper cups are generally considered more eco-friendly than plastic cups due to their biodegradability...Paper cups are generally considered more eco-friendly than plastic cups due to their biodegradability...Paper cups are generally considered more eco-friendly than plastic cups due to their biodegradability...Paper cups are generally considered more eco-friendly than plastic cups due to their biodegradability..."
+          }
+        ]
+      },
+      {
+        "name": "Paper Bowls",
+        "faqs": [
+          {
+            "que": "Are paper bowls good for hot food?",
+            "ans": "Paper bowls are generally suitable for serving hot food, but it's important to check if they have a heat-resistant coating..."
+          },
+          {
+            "que": "Are paper cups eco-friendly?",
+            "ans": "Paper cups are generally considered more eco-friendly than plastic cups due to their biodegradability.Paper cups are generally considered more eco-friendly than plastic cups due to their biodegradability...Paper cups are generally considered more eco-friendly than plastic cups due to their biodegradability...Paper cups are generally considered more eco-friendly than plastic cups due to their biodegradability...Paper cups are generally considered more eco-friendly than plastic cups due to their biodegradability...Paper cups are generally considered more eco-friendly than plastic cups due to their biodegradability..."
+          },
+          {
+            "que": "Are paper cups eco-friendly?",
+            "ans": "Paper cups are generally considered more eco-friendly than plastic cups due to their biodegradability.Paper cups are generally considered more eco-friendly than plastic cups due to their biodegradability...Paper cups are generally considered more eco-friendly than plastic cups due to their biodegradability...Paper cups are generally considered more eco-friendly than plastic cups due to their biodegradability...Paper cups are generally considered more eco-friendly than plastic cups due to their biodegradability...Paper cups are generally considered more eco-friendly than plastic cups due to their biodegradability..."
+          }
+        ]
+      },
+      {
+        "name": "Paper Bucket",
+        "faqs": [
+          {
+            "que": "Can paper buckets hold liquids?",
+            "ans": "Paper buckets are often used for dry food items, but some may have a lining that allows them to hold liquids for short periods..."
+          },
+          {
+            "que": "Are paper cups eco-friendly?",
+            "ans": "Paper cups are generally considered more eco-friendly than plastic cups due to their biodegradability.Paper cups are generally considered more eco-friendly than plastic cups due to their biodegradability...Paper cups are generally considered more eco-friendly than plastic cups due to their biodegradability...Paper cups are generally considered more eco-friendly than plastic cups due to their biodegradability...Paper cups are generally considered more eco-friendly than plastic cups due to their biodegradability...Paper cups are generally considered more eco-friendly than plastic cups due to their biodegradability..."
+          }
+        ]
+      },
+      {
+        "name": "Paper Cutlery",
+        "faqs": [
+          {
+            "que": "Is paper cutlery durable?",
+            "ans": "Paper cutlery is generally sturdy enough for lightweight use but may not be suitable for harder or tougher foods..."
+          },
+          {
+            "que": "Are paper cups eco-friendly?",
+            "ans": "Paper cups are generally considered more eco-friendly than plastic cups due to their biodegradability.Paper cups are generally considered more eco-friendly than plastic cups due to their biodegradability...Paper cups are generally considered more eco-friendly than plastic cups due to their biodegradability...Paper cups are generally considered more eco-friendly than plastic cups due to their biodegradability...Paper cups are generally considered more eco-friendly than plastic cups due to their biodegradability...Paper cups are generally considered more eco-friendly than plastic cups due to their biodegradability..."
+          }
+        ]
+      }
+    ]
+  }
+}

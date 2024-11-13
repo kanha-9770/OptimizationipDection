@@ -171,10 +171,9 @@
 "use client";
 import React, { useRef } from "react";
 import dynamic from "next/dynamic";
+import { motion, useInView } from "framer-motion";
 import Hero from "@/components/Home/Home";
 import { HomeData } from "./types/constant";
-
-const IOT = dynamic(() => import("./Iot"));
 const AboutUs = dynamic(() => import("./AboutSection"), { ssr: false });
 const NavLinksDemo = dynamic(() => import("@/components/Home/NavLinks"), {
   ssr: true,
@@ -205,6 +204,27 @@ interface MainLayoutProps {
   homeData: HomeData;
 }
 
+const fadeInVariant = {
+  hidden: { opacity: 0, y: 20 },
+  visible: { opacity: 1, y: 0, transition: { duration: 0.8, ease: "easeOut" } },
+};
+
+const AnimateOnScroll = ({ children }: { children: React.ReactNode }) => {
+  const ref = useRef(null);
+  const inView = useInView(ref, { once: true });
+
+  return (
+    <motion.div
+      ref={ref}
+      initial="hidden"
+      animate={inView ? "visible" : "hidden"}
+      variants={fadeInVariant}
+    >
+      {children}
+    </motion.div>
+  );
+};
+
 export default function MainLayout({ homeData }: MainLayoutProps) {
   const sectionRefs = {
     aboutUsRef: useRef<HTMLDivElement>(null),
@@ -231,67 +251,71 @@ export default function MainLayout({ homeData }: MainLayoutProps) {
       </div>
       <ContactIcons />
       <NavLinksDemo navItems={navItems} />
+
       <div className="h-full font-poppins">
         <div className="h-auto max-w-screen-2xl pl-14 mx-auto">
           <AnnouncementSection />
         </div>
 
-        <div
-          id="machines"
-          className="flex space-y-6 flex-col mt-20"
-          ref={sectionRefs.homeMachineRef}
-        >
-          <div className="flex justify-center text-3xl items-center space-x-2">
-            <h2 className="text-[#483d73] font-semibold">
-              {homeData.home[0].homeMachineSection?.title
-                .trim()
-                .replace(/\s+\S+$/, "")}
-              <span className="font-semibold ml-1">
+        <AnimateOnScroll>
+          <div
+            id="machines"
+            className="flex space-y-6 flex-col mt-20"
+            ref={sectionRefs.homeMachineRef}
+          >
+            <div className="flex justify-center text-3xl items-center space-x-2">
+              <h2 className="text-[#483d73] font-semibold">
                 {homeData.home[0].homeMachineSection?.title
                   .trim()
-                  .match(/\S+$/)}
-              </span>
-            </h2>
+                  .replace(/\s+\S+$/, "")}
+                <span className="font-semibold ml-1">
+                  {homeData.home[0].homeMachineSection?.title
+                    .trim()
+                    .match(/\S+$/)}
+                </span>
+              </h2>
+            </div>
+            <div className="text-sm w-full lg:w-full flex items-center justify-center">
+              <p className="lg:w-[50%] text-sm lg:px-0 px-2 lg:text-base font-regular text-center">
+                {homeData.home[0].homeMachineSection?.subheading}
+              </p>
+            </div>
+            <HomeMachine heroData={homeData} />
           </div>
-          <div className="text-sm w-full lg:w-full flex items-center justify-center">
-            <p className="lg:w-[50%] text-sm lg:px-0 px-2 lg:text-base font-regular text-center">
-              {homeData.home[0].homeMachineSection?.subheading}
-            </p>
+        </AnimateOnScroll>
+
+        <AnimateOnScroll>
+          <div className="h-auto max-w-screen-2xl mx-auto">
+            <AboutUs heroData={homeData} />
           </div>
-          <HomeMachine heroData={homeData} />
-        </div>
+        </AnimateOnScroll>
 
-        <div className="h-auto max-w-screen-2xl mx-auto">
-          <AboutUs heroData={homeData} />
-        </div>
+        <AnimateOnScroll>
+          <div id="clientele" className="max-w-screen-2xl mx-auto">
+            <MarqueeSection heroData={homeData} />
+          </div>
+        </AnimateOnScroll>
 
-        <div
-          id="clientele"
-          className="max-w-screen-2xl mx-auto"
-          ref={sectionRefs.infiniteCardsRef}
-        >
-          <MarqueeSection heroData={homeData} />
-        </div>
+        <AnimateOnScroll>
+          <div id="knowMore" className="h-auto">
+            <KnowMore heroData={homeData} />
+          </div>
+        </AnimateOnScroll>
 
-        <div>
-          <IOT />
-        </div>
+        <AnimateOnScroll>
+          <div id="news">
+            <FeatureNews heroData={homeData} />
+          </div>
+        </AnimateOnScroll>
 
-        <div id="knowMore" className="h-auto" ref={sectionRefs.knowMoreRef}>
-          <KnowMore heroData={homeData} />
-        </div>
-
-        <div id="news" ref={sectionRefs.newsFeatureRef}>
-          <FeatureNews heroData={homeData} />
-        </div>
-
-        <div
-          id="testimonials"
-          className="relative bg-gradient-to-l via-purple-200 to-transparent h-screen overflow-hidden"
-          ref={sectionRefs.homeTestimonialRef}
-        >
-          <HomeTestimonial heroData={homeData} />
-        </div>
+        <AnimateOnScroll>
+          <div
+            id="testimonials"
+            className="relative bg-gradient-to-l via-purple-200 to-transparent h-screen overflow-hidden"
+          >
+            <HomeTestimonial heroData={homeData} />
+          </div>
+        </AnimateOnScroll>
       </div>
     </main>
   );

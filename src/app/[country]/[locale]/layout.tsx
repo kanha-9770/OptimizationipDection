@@ -10,6 +10,7 @@ import {
 } from "@/components/Constants/Navbar/config";
 import dynamic from "next/dynamic";
 import { locales } from "@/i18n";
+import { setGlobalCountryCode, setGlobalLocale } from "@/hooks/globalCode";
 const FooterLayout = dynamic(() => import("@/components/Footer/FooterLayout"));
 const inter = Inter({
   subsets: ["latin"],
@@ -95,9 +96,11 @@ export default async function RootLayout({
   // Fallback to English if locale is not supported
   if (!locales.includes(locale as any)) {
     locale = "en";
+    setGlobalLocale(locale);
   }
   locale = locales.includes(locale as any) ? locale : "en";
-
+  setGlobalLocale(locale);
+  setGlobalCountryCode(country);
   // Ensure locale is correctly set here for debugging
   console.log("Rendering with locale:", locale);
   unstable_setRequestLocale(locale);

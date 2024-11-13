@@ -2,6 +2,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import { motion } from "framer-motion";
 import { usePathname } from "next/navigation";
+import LinkUrl from "@/components/LinkUrl";
 
 export const Menu = ({ children }: { children: React.ReactNode }) => {
   const [active, setActive] = useState<string | null>(null);
@@ -79,9 +80,9 @@ const MenuItem = ({
 
   return (
     <div ref={ref} className="z-10 cursor-pointer px-3 font-poppins">
-      <a className="invert-0 text-base font-light" href={`/${link}`}>
+      <LinkUrl className="invert-0 text-base font-light" href={`/${link}`}>
         {item}
-      </a>
+      </LinkUrl>
       {active === item && (
         <motion.div className="absolute  top-[calc(100%_-_1.0rem)] left-0 pt-4">
           <motion.div

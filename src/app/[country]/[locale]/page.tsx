@@ -18,7 +18,7 @@ type Props = {
 };
 
 // Revalidate every 60 seconds (or any time period you prefer)
-export const revalidate = 60;
+export const revalidate = 1;
 
 // Fetch home data based on the locale
 async function fetchHomeData(locale: string): Promise<HomeData | null> {

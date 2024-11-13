@@ -2,12 +2,11 @@ import { locales } from "@/i18n";
 import NavbarDemo from "./Navbar";
 import { NavbarData } from "./types/constant";
 import { unstable_setRequestLocale } from "next-intl/server";
-
 const apiUrl = "https://jsondatafromhostingertosheet.nesscoindustries.com/";
-
 type Props = {
   params: { locale: string };
 };
+export const revalidate = 1;
 
 async function fetchNavData(locale: string): Promise<NavbarData | null> {
   try {
@@ -44,7 +43,7 @@ export default async function NavLayout({ params: { locale } }: Props) {
   if (!locales.includes(locale as any)) {
     locale = "en"; // Fallback to English if the locale is not supported
   }
-
+  
   // Set the locale for the request
   unstable_setRequestLocale(locale);
 

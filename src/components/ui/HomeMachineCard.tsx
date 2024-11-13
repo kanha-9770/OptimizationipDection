@@ -36,10 +36,9 @@ const Card = ({ card }: { card: Card; index: number; layout?: boolean }) => {
           <div className="bg-black/80 backdrop-blur-lg h-full w-full fixed inset-0" />
           <div
             ref={containerRef}
-            className="max-w-5xl mx-auto bg-white dark:bg-neutral-900 h-fit z-[60] my-10 p-4 md:p-10 rounded-3xl font-sans relative"
           >
             <button
-              className="sticky z-50 top-0 h-8 w-8 right-0 -mr-32 -mt-6 ml-auto rounded-full flex items-center justify-center"
+              className="sticky z-[99999] top-0 h-8 w-8 right-0  ml-auto rounded-full flex items-center justify-center"
               onClick={handleClose}
             >
               {/* SVG Close Icon */}

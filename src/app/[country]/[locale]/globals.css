@@ -198,6 +198,3 @@ body {
     linear-gradient(to right, #483d73, #B91C1C);
   /* Border gradient */
 }
-#window-ribbon{
-  z-index: 100 !important;
-}
